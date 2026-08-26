@@ -98,3 +98,12 @@ Output: ```['blue', 'green', 'red']```
 swap_bookends([8, 3])
 ```
 Output: ```[3, 8]```
+
+To view and test the code:
+- Download ```'Programming Assignment 1.ipynb'``` that is located in this repository
+- Open via Jupyter Notebook
+- Click 'Run'
+  
+**README File Version History:**
+
+```August 26, 2026``` - Initial README.md output uploaded
