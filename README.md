@@ -76,7 +76,7 @@ Create a function named **swap_bookends()** that accepts a list containing at le
 - last – the last element.
 
 Use **extended sequence unpacking** in the following form:
-- ```*first,* **middle, last = items*```
+- ```first, *middle, last = items```
 ### Code
 ```python
 def swap_bookends(items):
