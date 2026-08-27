@@ -9,9 +9,9 @@
 ## **A. Word Rotation Problem**
 Create a function that moves the **first character** of the string to the end while keeping all remaining characters in their original order and preserves the capitalization of every character.
 The following functions used in this problem are:
--  **String Indexing** : ```text[1:]``` - Used to **access** individual characters within a string based on their numerical position. String indexing uses zero-based indexing, with **[0]** as the first position in a string rather than **[1]**.
+-  **String Indexing** : ```text[0]``` - Used to **access** individual characters within a string based on their numerical position. String indexing uses zero-based indexing, with **[0]** as the first position in a string rather than **[1]**.
 
--  **String Slicing** : ```text[0]``` - Used to **extract** all characters from the starting index until the end of the string.
+-  **String Slicing** : ```text[1:]``` - Used to **extract** all characters from the starting index until the end of the string.
 ### **Code**
 ```python
 def rotate_word(text):
@@ -107,3 +107,4 @@ To view and test the code:
 **README File Version History:**
 
 ```August 26, 2026``` - Initial README.md output uploaded
+```August 27, 2026``` - Updated lines 12 and 13
